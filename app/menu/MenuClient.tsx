@@ -218,7 +218,7 @@ export function MenuClient() {
                         )}
                       </div>
                     </div>
-                    <div className="px-6 divide-y" style={{ divideColor: "rgba(14, 124, 134, 0.1)" }}>
+                    <div className="px-6 divide-y divide-[rgba(14,124,134,0.1)]">
                       {cat.items.map((item, i) => (
                         <MenuItemRow key={item.name} item={item} index={i} />
                       ))}
